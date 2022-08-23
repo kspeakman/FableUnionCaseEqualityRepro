@@ -1,0 +1,3 @@
+This folder's contents are ignored by git with the exception of this file.
+
+Raison d'être: `dotnet fable -o <path>` fails if the path does not exist. This file is checked-in to ensure the existence of the folder when the repo is cloned.
